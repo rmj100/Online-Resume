@@ -1,0 +1,23 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
+
+div#work_card{
+    padding-bottom: 50px;
+}
+
+div#project_card {
+    padding-bottom: 50px;
+}
+
+div#education_card {
+    padding-bottom: 50px;
+}
