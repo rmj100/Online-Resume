@@ -1,0 +1,18 @@
+<?php
+include ("contact.html");
+
+function mymail ( $first_name, $last_name, $email ) {
+
+	$headers 	 =   "MIME-Version: 1.0" . "\r\n";
+	$headers 	.=   "Content-type:text/html;charset=UTF-8" . "\r\n";
+
+	mail ( "rmj24@njit.edu", "Online Resume" , $first_name, $last_name, $email, $headers );
+
+}
+
+$Fname = $_GET ["firstname"];
+$Lname = $_GET ["lastname"];
+$email = $_GET ["email"];
+
+mymail ($Fname, $Lname, $email) ;
+?>
